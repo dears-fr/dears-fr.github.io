@@ -1,0 +1,71 @@
+@keyframes mudarCorCeu {
+    0% {
+        background-color: #C3EAFD;
+    }
+    25% {
+        background-color: #C3EAFD;
+    }
+    50% {
+        background-color: #0A3443;
+    }
+    75% {
+        background-color: #0A3443;
+    }
+    100% {
+        background-color: #C3EAFD;
+    }
+}
+
+@keyframes escurecerGrama {
+    0% {
+        filter: brightness(1);
+    }
+    25% {
+        filter: brightness(1);
+    }
+    50% {
+        filter: brightness(0.5);
+    }
+    75% {
+        filter: brightness(0.5);
+    }
+    100% {
+        filter: brightness(1);
+    }
+}
+
+@keyframes escurecerImagem {
+    0% {
+        filter: brightness(1);
+    }
+    25% {
+        filter: brightness(1);
+    }
+    50% {
+        filter: brightness(0.7);
+    }
+    75% {
+        filter: brightness(0.7);
+    }
+    100% {
+        filter: brightness(1);
+    }
+}
+
+@keyframes esclarecerBorda {
+    0% {
+        filter: brightness(1);
+    }
+    25% {
+        filter: brightness(1);
+    }
+    50% {
+        filter: brightness(2);
+    }
+    75% {
+        filter: brightness(2);
+    }
+    100% {
+        filter: brightness(1);
+    }
+}

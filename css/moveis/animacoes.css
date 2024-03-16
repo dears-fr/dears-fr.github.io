@@ -1,0 +1,37 @@
+@media screen and (orientation: portrait) {
+    @keyframes girarSol {
+        0% {
+            transform: rotate(45deg) translate(0, -46.25vw) rotate(-45deg);
+        }
+        25% {
+            transform: rotate(45deg) translate(0, -46.25vw) rotate(-45deg);
+        }
+        50% {
+            transform: rotate(225deg) translate(0, -46.25vw) rotate(-225deg);
+        }
+        75% {
+            transform: rotate(225deg) translate(0, -46.25vw) rotate(-225deg);
+        }
+        100% {
+            transform: rotate(405deg) translate(0, -46.25vw) rotate(-405deg);
+        }
+    }
+    
+    @keyframes girarLua {
+        0% {
+            transform: rotate(45deg) translate(0, 46.25vw) rotate(-45deg) rotateZ(0deg);
+        }
+        25% {
+            transform: rotate(45deg) translate(0, 46.25vw) rotate(-45deg) rotateZ(0deg);
+        }
+        50% {
+            transform: rotate(225deg) translate(0, 46.25vw) rotate(-225deg) rotateZ(135deg);
+        }
+        75% {
+            transform: rotate(225deg) translate(0, 46.25vw) rotate(-225deg) rotateZ(135deg);
+        }
+        100% {
+            transform: rotate(405deg) translate(0, 46.25vw) rotate(-405deg) rotateZ(225deg);
+        }
+    }
+}
